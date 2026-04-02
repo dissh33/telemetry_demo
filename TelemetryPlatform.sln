@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{97887819-61EA-47BB-B32A-961A7C14FBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryContracts", "src\TelemetryContracts\TelemetryContracts.csproj", "{AFB8E15C-A192-4FBF-BF92-546E7CA60F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryApi", "src\TelemetryApi\TelemetryApi.csproj", "{FE96A5C5-8002-4CC4-9C3D-3969C8032B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryProcessor", "src\TelemetryProcessor\TelemetryProcessor.csproj", "{F6EB9675-673F-4DE8-9A21-6893402A6372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryMigrations", "src\TelemetryMigrations\TelemetryMigrations.csproj", "{F318E545-BBD1-4020-9F05-C6D03D3622D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3CDF6CD3-ECB8-4860-BAF0-74921D2AD614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryApi.Tests", "tests\TelemetryApi.Tests\TelemetryApi.Tests.csproj", "{4F23F3BE-E0A2-4490-AD4C-7CD2FC1FE4F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryProcessor.Tests", "tests\TelemetryProcessor.Tests\TelemetryProcessor.Tests.csproj", "{C7FF035E-1F4E-4639-A441-9347B1D127A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFB8E15C-A192-4FBF-BF92-546E7CA60F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB8E15C-A192-4FBF-BF92-546E7CA60F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB8E15C-A192-4FBF-BF92-546E7CA60F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB8E15C-A192-4FBF-BF92-546E7CA60F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE96A5C5-8002-4CC4-9C3D-3969C8032B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE96A5C5-8002-4CC4-9C3D-3969C8032B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE96A5C5-8002-4CC4-9C3D-3969C8032B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE96A5C5-8002-4CC4-9C3D-3969C8032B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6EB9675-673F-4DE8-9A21-6893402A6372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EB9675-673F-4DE8-9A21-6893402A6372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EB9675-673F-4DE8-9A21-6893402A6372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EB9675-673F-4DE8-9A21-6893402A6372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F318E545-BBD1-4020-9F05-C6D03D3622D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F318E545-BBD1-4020-9F05-C6D03D3622D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F318E545-BBD1-4020-9F05-C6D03D3622D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F318E545-BBD1-4020-9F05-C6D03D3622D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F23F3BE-E0A2-4490-AD4C-7CD2FC1FE4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F23F3BE-E0A2-4490-AD4C-7CD2FC1FE4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F23F3BE-E0A2-4490-AD4C-7CD2FC1FE4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F23F3BE-E0A2-4490-AD4C-7CD2FC1FE4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FF035E-1F4E-4639-A441-9347B1D127A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FF035E-1F4E-4639-A441-9347B1D127A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FF035E-1F4E-4639-A441-9347B1D127A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FF035E-1F4E-4639-A441-9347B1D127A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFB8E15C-A192-4FBF-BF92-546E7CA60F19} = {97887819-61EA-47BB-B32A-961A7C14FBF9}
+		{FE96A5C5-8002-4CC4-9C3D-3969C8032B27} = {97887819-61EA-47BB-B32A-961A7C14FBF9}
+		{F6EB9675-673F-4DE8-9A21-6893402A6372} = {97887819-61EA-47BB-B32A-961A7C14FBF9}
+		{F318E545-BBD1-4020-9F05-C6D03D3622D4} = {97887819-61EA-47BB-B32A-961A7C14FBF9}
+		{4F23F3BE-E0A2-4490-AD4C-7CD2FC1FE4F6} = {3CDF6CD3-ECB8-4860-BAF0-74921D2AD614}
+		{C7FF035E-1F4E-4639-A441-9347B1D127A0} = {3CDF6CD3-ECB8-4860-BAF0-74921D2AD614}
+	EndGlobalSection
+EndGlobal
