@@ -1,4 +1,23 @@
 {
+  "vhosts": [
+    { "name": "/" }
+  ],
+  "users": [
+    {
+      "name": "guest",
+      "password_hash": "O89pywuyZuVNICZeo67h8YSJP1OkrtGqi/mF1PUhLs2mXxB0",
+      "tags": "administrator"
+    }
+  ],
+  "permissions": [
+    {
+      "user": "guest",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    }
+  ],
   "queues": [
     {
       "name": "telemetry",
